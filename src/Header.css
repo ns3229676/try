@@ -1,0 +1,28 @@
+.header{
+display: flex;
+background-color: #d1d1d1;
+position: sticky;
+top: 0px;
+}
+
+
+.header__nav{
+ display: flex;
+ margin-left: 24%;
+}
+
+.header__img{
+    object-fit: contain;
+    width: 22%;
+    margin-left: -44%;
+}
+
+
+.header__nav__heading{
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
