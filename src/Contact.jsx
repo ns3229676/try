@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Contact.css' 
 import CONTACTUS from './images/contactus.jpg'
 
 function Contact() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
+
   return (
     <div className='contact'>
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import HOMEGRAPHIC from './images/homeGraphic.jpg'
 import REGISTRATION2 from './images/registration2.jpg'
@@ -9,6 +9,11 @@ import BRAND from './images/brand.jpg'
 
 
 function Home() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
+  
   return (
     <div className='home'>
 

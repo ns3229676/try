@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import ABOUTUS from './images/aboutus.jpg'
 
 function About() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
+
   return (
     <div className='about'>
 

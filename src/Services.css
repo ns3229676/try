@@ -1,0 +1,81 @@
+.services{
+   padding-left: 2%;
+   padding-right: 2%;
+   background-color: white;
+}
+
+.services__hiringServices{
+    background-color: white;
+    display: flex;
+}
+
+.services__hiringServices__img{
+    width: 40%;
+}
+
+
+
+
+.services__hiringServices__right__details{
+    /* color: #88858e;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-family: sans-serif; */
+
+    font-size: 19px;
+    font-family: sans-serif;
+    line-height: 37px;
+    text-align: justify;
+    /* margin-left: 11%; */
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    /* display: initial; */
+    margin-left: 13%;
+    margin-top: 8%;
+}
+
+
+
+
+.services__boxes{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.services__boxes__box1{
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+
+
+.services__boxes__box2{
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+
+
+.services__boxes__box3{
+    border: 1px solid black; 
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;  
+        padding: 2%;
+}
+
+
+/* .services__boxes__box1__details{
+    color: #88858e;
+} */
