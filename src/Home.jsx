@@ -3,7 +3,10 @@ import './Home.css'
 import HOMEGRAPHIC from './images/homeGraphic.jpg'
 import REGISTRATION2 from './images/registration2.jpg'
 import LISTINGSETUP from './images/listingSetup.jpg'
-import ACCOUNTMANAGEMENT from './images/accountManagement.jpg'
+// import ACCOUNTMANAGEMENT from './images/accountManagement.jpg'
+import ACCOUNT from './images/account.jpg'
+import BRAND from './images/brand.jpg'
+
 
 function Home() {
   return (
@@ -59,7 +62,7 @@ function Home() {
     <div className='home__bottom__accountManagement'>
 
     <div className='home__bottom__accountManagement__left'>
-    <img src={ACCOUNTMANAGEMENT} className='home__bottom__accountManagement__left__img'/>
+    <img src={ACCOUNT} className='home__bottom__accountManagement__left__img'/>
     </div>
 
     <div className='home__bottom__accountManagement__right'>
@@ -74,9 +77,13 @@ function Home() {
 
     <div className='home__bottom__enhancedBrand'>
 
+    <div className='home__bottom__enhancedBrand__left'>
+    <h1 className='home__bottom__enhancedBrand__left__heading'>Last Trade</h1>
+    <p className='home__bottom__enhancedBrand__left__details'>Writing a exciting and thoughtful speech requires one to select a good topic, research it thoroughly and formation of individual opinions to express on the same. School students are usually asked to speak on a contemporary topic in order to help them become good public speakers as well as learn the art of expressing oneself in front of an audience. While many speech competitions often allot topics beforehand, you might also have heard of extempore where topics are given on the spot for speech. This blog brings you a list of common English speech topics as well as some helpful tips and tricks that can assist you in expressing your thoughts and opinions in an effective manner in front of an audience.</p>
+    </div>
+
     <div className='home__bottom__enhancedBrand__right'>
-    <h1 className='home__bottom__enhancedBrand__right__heading'>Last Trade</h1>
-    <p className='home__bottom__enhancedBrand__right__details'>Writing a exciting and thoughtful speech requires one to select a good topic, research it thoroughly and formation of individual opinions to express on the same. School students are usually asked to speak on a contemporary topic in order to help them become good public speakers as well as learn the art of expressing oneself in front of an audience. While many speech competitions often allot topics beforehand, you might also have heard of extempore where topics are given on the spot for speech. This blog brings you a list of common English speech topics as well as some helpful tips and tricks that can assist you in expressing your thoughts and opinions in an effective manner in front of an audience.</p>
+    <img src={BRAND} className='home__bottom__enhancedBrand__right__img'/>
     </div>
 
   
