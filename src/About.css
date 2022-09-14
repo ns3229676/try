@@ -1,0 +1,36 @@
+.about{
+    background-color: white;
+    display: flex;
+    height: 100vh;
+}
+
+
+.about__img{
+    width: 90%;
+    text-align: initial;
+    display: flex;
+    margin-left: 10%;
+}
+
+
+.about__right__details{
+    font-size: 19px;
+    font-family: sans-serif;
+    line-height: 37px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+
+.about__right__heading{
+    font-family: cursive;
+    text-align: initial;
+    margin-left: 9%;
+    color: #ff7234;
+    margin-top: 6%;
+}

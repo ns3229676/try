@@ -13,8 +13,8 @@ function Header() {
 
     <div className='header__nav'>
     <Link to={'/about'} className='nav__links' ><p className='header__nav__heading'> About </p></Link>
-    <Link to={'/contact'} className='nav__links' ><p className='header__nav__heading'>Services</p></Link>
-    <Link to={'/services'} className='nav__links' ><p className='header__nav__heading'>Contact</p></Link>
+    <Link to={'/services'} className='nav__links' ><p className='header__nav__heading'>Services</p></Link>
+    <Link to={'/contact'} className='nav__links' ><p className='header__nav__heading'>Contact</p></Link>
     </div>
 
     </div>

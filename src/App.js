@@ -17,8 +17,8 @@ function App() {
     <Routes>
     <Route  path="/" element={<Fragment> <Header />  <Home/> <Footer/> </Fragment>} />
     <Route  path="/about" element={<Fragment> <Header />  <About/> <Footer/> </Fragment>} />
-    <Route  path="/contact" element={<Fragment> <Header />  <About/> <Footer/> </Fragment>} />
-    <Route  path="/services" element={<Fragment> <Header />  <About/> <Footer/> </Fragment>} />
+    <Route  path="/contact" element={<Fragment> <Header />  <Contact/> <Footer/> </Fragment>} />
+    <Route  path="/services" element={<Fragment> <Header />  <Services/> <Footer/> </Fragment>} />
     
     </Routes>
     

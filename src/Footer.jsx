@@ -61,7 +61,7 @@ function Footer() {
 
     <div className='foorter__thirdDiv__second'>
     <EmailIcon className='foorter__thirdDiv__second__icon' />
-    <p className='foorter__thirdDiv__second__detail'>ehirix@gmail.com</p>
+    <p className='foorter__thirdDiv__second__detail'>support@paropkaar.com</p>
     </div>
 
     <div className='foorter__thirdDiv__third'>
